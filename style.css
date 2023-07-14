@@ -1,0 +1,29 @@
+body {
+	background: url("https://images.pexels.com/photos/2422497/pexels-photo-2422497.jpeg?cs=srgb&dl=pexels-josh-hild-2422497.jpg&fm=jpg");
+    color: white;
+}
+
+input{
+    color: white; 
+    outline: none;
+    padding: 5px;
+    min-width: 30%;
+    font-size: 15px;
+    border: none;
+    background: rgb(0,0,0, .5);
+    text-align: center;
+    transition: .5s ease-in-out;
+}
+
+input:focus{
+    transform: scale(1.1);
+}
+
+button{
+    margin: 5px;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-weight: bolder;
+    background: rgb(225, 255, 255, .5);
+}
